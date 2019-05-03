@@ -1,12 +1,17 @@
-Array 
-Stack 
-Queue
-LInkedList
+Array   
+Stack    
+Queue   
+LInkedList   
 
-Tree 
-Heap 
-Graph 
-Hash Table
+Tree   
+Heap    
+Graph   
+Hash Table   
+
+**basic operations** provided by the data structure, which operations are efficient and which are not. 
+what **use case** we can utilize kind of data structure. 
+
+
 
 # Queue 
 * FIFO: First in first out  
