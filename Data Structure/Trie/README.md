@@ -16,30 +16,33 @@ path
 
 
 ## Topics
-* [1. Two Pointers](#1-Two-Pointers)      
+* [1.](#1)      
 * [2.]()
 
-## 1. Two Pointers    
+## 1.    
 
 
 
 
-* [905. Sort Array By Parity(Easy)](https://leetcode.com/problems/sort-array-by-parity/)      
-> Solution:      
-> 1. i: slow pointer; j: find even num;      
-> 2. condition: swap when find even num;     
+* [Design A dictionary]()   
+n - num of words     
+m - length of the string/word    
+   
+Requirement:    
+1. search(word)    
+2. delete   
+3. add   
+4. find all words with given prefix    
 
-* [922. Sort Array By Parity II(Easy)](https://leetcode.com/problems/sort-array-by-parity-ii/)   
-> Assumptions: 
-> 1. num of even = num of odd.     
-> 2. array.length % 2 == 0.  
+Options of Data Structure:      
+Trie   
+HashMap, Balanced BST, ArrayList(Sorted)     
 
-> Solution:   
-> 1. i: even index; j: odd index;  
-> 2. condition: i find odd num, j find even num, then swap;   
-
-> Tips:    
-> 1. in while loop, mind index exception every condition and put it in the first place.    
+Data Structure | Search | delete | add | prefix
+------------ | ------------- | ------------- | ------------- | -------------
+HashMap | O(1 * m)(equals()) |  O(m) | O(m) | O(n * m)
+Balanced BST | O(mlogn) | O(mlogn) | O(mlogn) | O(mlogn + k) 
+ArrayList | O(mlogn) | O(mlogn + n) (move elements) | O(mlogn + n) | O(mlogn + k) 
 
 
 
