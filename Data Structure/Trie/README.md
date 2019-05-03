@@ -1,5 +1,16 @@
-# Union Find 
+# Trie
+"Retrieve"   
+*A data structure, actually it is a tree and a search tree*    
 
+
+Search Trees   
+usually ordered data structure    
+search for some "keys"   
+
+
+
+path
+![Trie Example](/images/trie.png)    
 
 
 
