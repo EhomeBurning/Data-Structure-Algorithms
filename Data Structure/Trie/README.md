@@ -43,12 +43,7 @@ ArrayList | O(mlogn) | O(mlogn + n) (move elements) | O(mlogn + n) | O(mlogn + k
 Trie | O(m) (guarantee) | O(m) | O(m) | O(m)    
 
 
-Data Structure | Search | delete | add | prefix   
---- | --- | --- | --- | ---    
-HashMap | O(1 * m)(equals()) |  O(m) | O(m) | O(n * m)    
-Balanced BST | O(mlogn) | O(mlogn) | O(mlogn) | O(mlogn + k)     
-ArrayList | O(mlogn) | O(mlogn + n) (move elements) | O(mlogn + n) | O(mlogn + k)    
-Trie | O(m) (guarantee) | O(m) | O(m) | O(m)    
+
 
 
 
