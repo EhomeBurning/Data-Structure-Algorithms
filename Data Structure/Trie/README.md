@@ -1,16 +1,25 @@
 # Trie
 *From the word "Retrieve"*       
-*A data structure, actually it is a tree and a search tree*    
+*Trie is a data structure, actually it is a tree and a search tree*   
 
-* Use Case:    
+- Use Case:    
 1. String or sequence typed elements.    
 2. fast worst case search/add/delete.   
 3. **grouping common prefix, both for time and space efficiency**.   
 4. problems related to prefix/matching.     
 
-* Example Trie    
+- Example Trie    
 path    
 ![Trie Example](/images/trie.png)       
+
+## Topics
+* [1.Knowledge](#1)      
+* [2.]()
+
+## 1.Knowledge    
+
+
+
 
 * Dictionary Requirement:      
 1. search(word)    
@@ -50,11 +59,6 @@ Memory allocation fragmentation.
 
 
 
-## Topics
-* [1.](#1)      
-* [2.]()
-
-## 1.    
 
 
 
