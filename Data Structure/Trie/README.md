@@ -34,27 +34,29 @@ path
 - Time Complexity Analysis:    
    - n -> num of words     
    - m -> length of the string/word    
-Data Structure | Search | delete | add | prefix
------------- | ------------- | ------------- | ------------- | -------------
-HashMap | O(1 * m)(equals()) |  O(m) | O(m) | O(n * m)
-Balanced BST | O(mlogn) | O(mlogn) | O(mlogn) | O(mlogn + k) 
-ArrayList | O(mlogn) | O(mlogn + n) (move elements) | O(mlogn + n) | O(mlogn + k) 
-Trie | O(m) (guarantee) | O(m) | O(m) | O(m)  
+Data Structure | Search | delete | add | prefix   
+------------ | ------------- | ------------- | ------------- | -------------    
+HashMap | O(1 * m)(equals()) |  O(m) | O(m) | O(n * m)    
+Balanced BST | O(mlogn) | O(mlogn) | O(mlogn) | O(mlogn + k)     
+ArrayList | O(mlogn) | O(mlogn + n) (move elements) | O(mlogn + n) | O(mlogn + k)    
+Trie | O(m) (guarantee) | O(m) | O(m) | O(m)    
 
 - Advantages:    
    - Ordering     
-      - HashMap do not have.     
+      - HashMap -> No
+      - ArrayList -> Yes
+      - Balanced BST -> Yes
 
-2. Space  
-Only if the trie is not too sparse.     
-Worst case O(nm).    
+   - Space  
+      - Only if the trie is not too sparse.     
+      - Worst case O(nm).    
 
-* Drawbacks:    
-1. Time:   
-If stored on disk, more random disk accesses(expensive).   
-2. Space(especially when trie is sparse):    
-Every TrieNode has extra space consumption.  
-Memory allocation fragmentation.   
+- Drawbacks:    
+   - Time:   
+      - If stored on disk, more random disk accesses(expensive).   
+   - Space(especially when trie is sparse):    
+      - Every TrieNode has extra space consumption.  
+      - Memory allocation fragmentation.   
 
 
 
