@@ -1,6 +1,11 @@
 # Union Find 
+Key:  
+1. Merge parent NOT children    
 
 
+
+Find 
+Union
 
 
 
