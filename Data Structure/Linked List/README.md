@@ -92,7 +92,7 @@ public ListNode appendHead(ListNode head, int value) {
 > 1. wrong example: 
 > cur.value < target && cur.next.value >= target   
 > 2. Corner case:    
-> head and tail. 
+> head and tail.    
 
 
 
@@ -153,16 +153,21 @@ public ListNode appendHead(ListNode head, int value) {
 
 * [143. Reorder List(Medium)](https://leetcode.com/problems/reorder-list/)     
 *Deserve to do it again*   
-> Given a singly linked list L: L0→L1→…→Ln-1→Ln,    
-> reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…   
-> Given 1->2->3->4, reorder it to 1->4->2->3.      
-> Solution:     
+Given a singly linked list L: L0→L1→…→Ln-1→Ln,    
+ reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…   
+ Given 1->2->3->4, reorder it to 1->4->2->3.      
+> Solution:   mid + reverse + merge      
 > 1. Step1: Find the middle node of the LinkedList;   
 > 2. Step2: reverse 2nd half;  eg: N100 -> N99 ->... -> N51;    
 > 3. Step3: Merge two LinkedList;    
 
 
-
+* [148. Sort List(Medium)](https://leetcode.com/problems/sort-list/)     
+Input: 4->2->1->3    
+Output: 1->2->3->4    
+> Solution: mid + merge + merge sort            
+> 1. find mid;   
+> 2. merge two list based on value;   
 
 
 
