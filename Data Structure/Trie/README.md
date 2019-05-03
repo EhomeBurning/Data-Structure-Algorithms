@@ -3,10 +3,10 @@
 *Trie is a data structure, actually it is a tree and a search tree*   
 
 - Use Case:    
-1. String or sequence typed elements.    
-2. fast worst case search/add/delete.   
-3. **grouping common prefix, both for time and space efficiency**.   
-4. problems related to prefix/matching.     
+   - 1. String or sequence typed elements.    
+   - 2. fast worst case search/add/delete.   
+   - 3. **grouping common prefix, both for time and space efficiency**.   
+   - 4. problems related to prefix/matching.     
 
 - Example Trie    
 path    
