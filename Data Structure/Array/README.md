@@ -25,7 +25,8 @@
 
 > Solution:   
 > 1. i: even index; j: odd index;  
-> 2. condition: i find odd num, j find even num, then swap;      
+> 2. condition: i find odd num, j find even num, then swap;   
+
 > Tips:    
 > 1. in while loop, mind index exception every condition and put it in the first place.    
 
