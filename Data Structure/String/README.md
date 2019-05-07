@@ -5,10 +5,12 @@
 > Input: "4193 with words"      
 > Output: 4193     
 > Explanation: Conversion stops at digit '3' as the next character is not a numerical digit.  
-> Solution:      
-> 1. firstChar as a sign;        
+> Solution:     
+> 1. firstChar as a sign;       
 > 2. see if the following char is digit or not;       
-> 3. if char, result = 10 * result + curNum;    
+> 3. if char, result = 10 * result + curNum;   
+> Tips:      
+> 1. mind MAX_VALUE and MIN_VALUE;   
 
 
 # 1. Removal 
