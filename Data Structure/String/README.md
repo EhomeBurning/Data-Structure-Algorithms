@@ -8,7 +8,8 @@
 > Solution:     
 > 1. firstChar as a sign;       
 > 2. see if the following char is digit or not;       
-> 3. if char, result = 10 * result + curNum;   
+> 3. if char, result = 10 * result + curNum;    
+
 > Tips:      
 > 1. mind MAX_VALUE and MIN_VALUE;   
 
