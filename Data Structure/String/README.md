@@ -14,6 +14,15 @@
 > 1. mind MAX_VALUE and MIN_VALUE;   
 
 
+* [387. First Unique Character in a String(Easy)](https://leetcode.com/problems/first-unique-character-in-a-string/)     
+> input: s = "leetcode"      
+> return 0.   
+> Solution:   
+> 1. int[] count = new int[26];      
+> 2. count[ch - 'a']++;    
+
+
+
 # 1. Removal 
 ## 1.1 remove some particular chars from a string.
 ## 1.2 remove all leading/tralling/duplicated empty spaces from a string
