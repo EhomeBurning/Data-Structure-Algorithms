@@ -25,19 +25,14 @@
 ## Basic Recusion Questions  
 
 * Fibonacci   
-
 ```
 # Fibonacci 
-int fibo (int n) {
-    // base case 
-    if (n == 0) {
-        return 0;
-    } else if (n == 1) {
-        return 1;
-    }
-    return fibo(n - 1) + fibo(n - 2);
-}
-```
+
+Time Complexity: 
+All the leaf node (2^n) * each node time cost (O(1)) = O(2^n)  
+
+Space Complexity: 
+# of Call_Stack = DFS of the recursion tree = height(tree) = O(n)
 
 Recursion Tree:  
 
@@ -49,12 +44,19 @@ Recursion Tree:
   /  \     
 F(1)  F(0)    
 
-Time Complexity: 
-All the leaf node (2^n) * each node time cost (O(1)) = O(2^n)  
+int fibo (int n) {
+    // base case 
+    if (n == 0) {
+        return 0;
+    } else if (n == 1) {
+        return 1;
+    }
+    return fibo(n - 1) + fibo(n - 2);
+}
+```
 
 
-Space Complexity: 
-num of Call_Stack = DFS of the recursion tree = height(tree) = O(n)
+
 
 
 
