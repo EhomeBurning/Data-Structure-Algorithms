@@ -1,5 +1,27 @@
 # String 
-*There are five topics about String*
+*There are nine main topics about String*
+
+* [8. String to Integer (atoi)(Medium)](https://leetcode.com/problems/string-to-integer-atoi/)    
+> Input: "4193 with words"      
+> Output: 4193     
+> Explanation: Conversion stops at digit '3' as the next character is not a numerical digit.  
+> Solution:     
+> 1. firstChar as a sign;       
+> 2. see if the following char is digit or not;       
+> 3. if char, result = 10 * result + curNum;    
+
+> Tips:      
+> 1. mind MAX_VALUE and MIN_VALUE;   
+
+
+* [387. First Unique Character in a String(Easy)](https://leetcode.com/problems/first-unique-character-in-a-string/)     
+> input: s = "leetcode"      
+> return 0.   
+> Solution:   
+> 1. int[] count = new int[26];      
+> 2. count[ch - 'a']++;    
+
+
 
 # 1. Removal 
 ## 1.1 remove some particular chars from a string.
